@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main #heading{
+    height: 64rem;
+    width: 27rem;
+    background-color: rebeccapurple;
+    position: fixed;
+    overflow: hidden;
+}
+.main{
+    background-color: orange;
+    height: 53.9rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.main #heading ul li{
+    position: relative;
+    top: 8rem;
+    padding: 1rem;
+    list-style: none;
+    padding: 1.5rem;
+    border: 0.1px solid rebeccapurple;
+    width: 26rem;
+    text-align: center;
+}
+.main #heading ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.main #heading .below #ab{
+    position: relative;
+    top: 28rem;
+    left: 5rem;
+}
+.main #heading ul li:hover{
+    background-color: red;
+    transform: scale(1.08);
+}
+#heading #profile img{
+    position: absolute;
+    border: 0.01px solid rebeccapurple;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    top: 3rem;
+    left: 2rem;
+}
+#heading #profile a{
+    position: absolute;
+    top: 3rem;
+    left: 6.6rem;
+    text-decoration: none;
+    font-size: 2.6rem;
+    color: black;
+}
+#left img{
+    position: relative;
+    border: 4px solid red;
+    border-radius: 7rem;
+    height: 29rem;
+    width: 28rem;
+    left: 70rem;
+    top: 16rem;
+    overflow: hidden;
+}
+#left img:hover{
+    transform: scale(1.06);
+}
+.container .arrow img{
+    position: relative;
+    left: 45rem;
+    width: 60px;
+    height: 60px;
+    top: 20rem;
+    border: 5px solid orange;
+}
+#left h1{
+    position: relative;
+    font-size: 50px;
+    color: blueviolet;
+    font-weight: bold;
+    top: -15rem;
+    left: 35rem;
+}
+#left h1 b{
+    color: rgb(206, 14, 14);
+}
+#left p{
+    position: relative;
+    top: -15rem;
+    left: 34.5rem;
+    font-size: 20px;
+}
+#left #dow{
+    position: relative;
+    border: 1px solid orange;
+    background: rgb(197, 137, 7);
+    padding: 10px;
+    left: 34rem;
+    top: -13rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#left #dow:hover{
+    transform: scale(1.07);
+    background-color: rgb(123, 17, 52);
+}
+#skills{
+    width: 76rem;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    top: -3rem;
+    left: 27rem;
+    height: 60rem;
+    background-color: orange;
+}
+#skills .sk h1{
+    position: relative;
+    left: 28rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+#skills .box{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 500px;
+    height: 8px;
+    position: relative;
+    left: 7rem;
+    top: 5rem;
+}
+#skills .box1-a{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 450px;
+    height: 8px;
+    position: relative;
+    background-color: purple;
+    left: 7rem;
+    top: 4.4rem;
+}
+#skills .box1-b{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 450px;
+    height: 8px;
+    position: relative;
+    background-color: purple;
+    left: 7rem;
+    top: 4.5rem;
+}
+#skills .box1-c{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 410px;
+    height: 8px;
+    position: relative;
+    background-color: purple;
+    left: 7rem;
+    top: 4.4rem;
+}
+#skills .box1-d{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 400px;
+    height: 8px;
+    position: relative;
+    background-color: purple;
+    left: 7rem;
+    top: 4.4rem;
+}
+#skills .box1-e{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 380px;
+    height: 8px;
+    position: relative;
+    background-color: purple;
+    left: 7rem;
+    top: 4.4rem;
+}
+#skills .box1-f{
+    border: 0.1px solid rgb(120, 15, 57);
+    border-radius: 5px;
+    display: flex;          
+    width: 350px;
+    height: 8px;
+    position: relative;
+    background-color: purple;
+    left: 7rem;
+    top: 4.4rem;
+}
+#skills li{
+    list-style: none;
+}
+#skills li h1{
+    position: relative;
+    top: 5rem;
+    padding: 10px;
+    font-size: 20px;
+    left: 6.5rem;
+}
+#skills p{
+    position: relative;
+    left: 34rem;
+    top: 2rem;
+}
+#skills .box-a{
+    color: 50% blue;
+}
+#help{
+    width: 75rem;
+    position: relative;
+    top: -6rem;
+    left: 27rem;
+    height: 67.9rem;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+#help .bel h1{
+    position: relative;
+    left: 29rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+#help input{
+    position: relative;
+    display: flex;
+    left: 9rem;
+    top: 11rem;
+    padding: 10px;
+    border-radius: 15px;
+}
+#help label{
+    position: relative;
+    top: 13rem;
+    left: 3rem;
+    padding: 10px;
+}
+#help button{
+    position: relative;
+    border-radius: 10px;
+    left: 30rem;
+    top: -5.8rem;
+    padding: 15px;
+    background-color: red;
+    overflow: hidden;
+}
+#help button:hover{
+    background-color: yellow;
+    transform: scale(1.07);
+}
+#help p{
+    position: relative;
+    left: 45rem;
+    font-size: 19px;
+}
+.hor{
+    border: 1px solid red;
+    width: 5px;
+    height: 137rem;
+    position: absolute;
+    background-color: rgb(12, 1, 21);
+    left: 15px;
+    top: 9rem;
+}
+.walk i{
+    font-size: 40px;
+    color: rgb(209, 15, 18);
+    position: absolute;
+    top: 6rem;
+    left: 8px;
+}
+.hor .cir-1{
+    border: 0.2px solid black;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(19, 6, 11) ;
+    left: -10px;
+    top: -3px;
+}
+.hor .cir-2{
+    border: 0.2px solid black;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(19, 6, 11) ;
+    left: -10px;
+    top: 67.5rem;
+}
+.hor .cir-3{
+    border: 0.2px solid black;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(19, 6, 11) ;
+    left: -10px;
+    top: 133rem;
+}
+#help .social a{
+    position: relative;
+    font-size: 40px;
+    padding: 30px;
+    text-decoration: none;
+    top: 24rem;
+    left: 20rem;
+    color: rgb(75, 7, 7);
+}
+#help .social a:hover{
+    transform: scale(1.8);
+    color: red;
+}
+#education{
+    height: 60rem;
+    background-color: orange;
+    margin-top: -6rem;
+}
+#education i{
+    position: relative;
+    left: -0.4rem;
+    top: 0.4rem;
+}
+#education .mid{
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    top: 10rem;
+    height: 30rem;
+    width: 5px;
+    left: 60rem;
+}
+.cir11{
+    position: relative;
+    top: 9.2rem;
+    left: 59.5rem;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+.cir11 h1{
+    position: relative;
+    top: -32.2rem;
+    left: -6.9rem;
+}
+.cir11 h6{
+    position: relative;
+    top: -32.2rem;
+    left: -9rem;
+    display: flex;
+}
+.cir22{
+    position: relative;
+    top: -6.9rem;
+    left: 59.5rem;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+.cir22 h1{
+    position: relative;
+    top: -2.2rem;
+    left: 2.9rem;
+}
+.cir22 h6{
+    position: relative;
+    top: -2.3rem;
+    left: 3.9rem;
+    display: flex;
+}
+.cir33{
+    position: relative;
+    top: -23.6rem;
+    left: 59.5rem;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+.cir33 h1{
+    position: relative;
+    top: 27rem;
+    left: -9rem;
+}
+.cir33 h6{
+    position: relative;
+    top: 27rem;
+    left: -9rem;
+    display: flex;
+}
+.h h1{
+    position: absolute;
+    top: 109rem;
+    left: 30.5rem;
+    font-size: 50px;
+}
+#about{
+    width: 76rem;
+    position: relative;
+    top: -6rem;
+    left: 27rem;
+    height: 65rem;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+#about h2{
+    font-size: 25px;
+    position: relative;
+    left: 7rem;
+    top: 6rem;
+}
+#about h1{
+    font-size: 35px;
+    position: relative;
+    left: 30rem;
+    top: 4rem;
+}
+#about img{
+    position: relative;
+    border: 5px solid red;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    left: 25rem;
+    top: 10rem;
+}
+#about button{
+    position: relative;
+    background-color: rgb(200, 8, 72);
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 20px;
+    left: 31rem;
+    top: 13rem;
+}
+#about button:hover{
+    background-color: rgb(98, 98, 16);
+    box-shadow: 1 1 5px black, 1 1 10px black, 1 1 25px black, 1 1 50px black, 1 1 100px black;
+    transform: scale(1.06);
+}   
